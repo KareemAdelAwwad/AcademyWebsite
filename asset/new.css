@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+=======
+body {
+  background-color: red;
+>>>>>>> 8fc6646a7afddd495862d758b6acdc1865946bec
 }
