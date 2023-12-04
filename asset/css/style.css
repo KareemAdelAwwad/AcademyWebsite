@@ -47,7 +47,7 @@ html {
 /* ----------------- SET ALL ELEMENTS -----------------*/
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 1512px;
 }
 * {
   padding: 0;
@@ -122,8 +122,8 @@ body {
 }
 
 /* Xlarge */
-@media (min-width: 1200px){
+@media (min-width: 1512px){
   .container {
-    width: 1170px;
+    width: 1350px;
   }
 }
