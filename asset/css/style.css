@@ -1,0 +1,129 @@
+/* ----------------- VAR ----------------- */
+:root {
+  --primary-color: #9E5CF2;
+  --primary-color-transpire: #9d5cf230;
+  --second-color: #FF991F;
+  --second-color-transpire: #FF991F30;
+  --second-color-darker: #5c3200;
+  --text-color: #ddd;
+  --main-padding: 80px;
+  --border-radius: 12px;
+}
+
+/* ----------------- SELECTION ----------------- */
+::selection {
+  background-color: var(--main-color);
+  color: #FFF;
+}
+
+/* ----------------- SMOOTH ----------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ----------------- SCROLL BAR ----------------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--primary-color-transpire);
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius:  40px;
+  -webkit-border-radius:  40px;
+  -moz-border-radius:  40px;
+  -ms-border-radius:  40px;
+  -o-border-radius:  40px;
+}
+
+
+
+/* ----------------- SET ALL ELEMENTS -----------------*/
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- MEDIA QUERT ALL SCREEN SIZE ----------------- */
+
+/* small */
+@media (max-width: 767px){
+  .container {
+    width: 80%;
+  }
+}
+
+/* medium */
+@media (min-width: 768px){
+  .container {
+    width: 750px;
+  }
+}
+
+/* large */
+@media (min-width: 992px){
+  .container {
+    width: 970px;
+  }
+}
+
+/* Xlarge */
+@media (min-width: 1200px){
+  .container {
+    width: 1170px;
+  }
+}
