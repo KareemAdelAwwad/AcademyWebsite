@@ -1,4 +1,5 @@
 @import url('./sections/Header.css');
+@import url('./sections/footer.css');
 /* ----------------- VAR ----------------- */
 :root {
   --primary-color: #9E5CF2;
