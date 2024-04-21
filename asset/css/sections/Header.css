@@ -1,3 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');
 header{
+    display: flex;
+    min-height: 140px;
+    border-bottom: 1px solid #08080810;
+}
+header .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*---------------------  Logo  ------------------*/
+.logo{
+    display: flex;
+    span{
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Rubik;
+        margin-left: 5px;
+    }
+}
+/*---------------------  Menu  ------------------*/
+.menu {
+    position: relative;
+    margin-left: -3%;
+    font-size: 17px;
+    font-weight: 450;
+    color: #08080850;
+
+    ul{
+        list-style: none;
+    }
+    .main{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            padding-right: 30px;
+            .caret{
+                font-size: 14px;
+            }
+        }
+    }
+    .sub{
+        position: absolute;
+        display: none;
+        top: 40px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 2px #33333333;
+        padding: 10px 45px 10px 15px;
+        border-radius: var(--border-radius);
+        -webkit-border-radius: var(--border-radius);
+        -moz-border-radius: var(--border-radius);
+        -ms-border-radius: var(--border-radius);
+        -o-border-radius: var(--border-radius);
+        li{
+            position: static;
+            width: 150px;
+            color: #080808;
+            font-size: 13px;
+            margin: 15px 0px;
+            .caret{
+                position: absolute;
+                right: 20px;
+            }
+        }
+        li:hover, .caret:hover{
+            color: var(--primary-color);
+        }
+    }
+}
+.cat-sub-menu{
+    display: block;
+    border-color: red;
+    border-bottom:20px solid transparent; 
+    border-top:20px solid transparent; 
+}
+.cat-sub-menu:hover .sub{
+    display: block;
+}
+.cat-sub-menu:hover .fa-angle-down{
+    rotate: -180deg;
+}
+.main-list{
+    position: relative;
+}
+.main li:hover .level-one::before{
+    display: block;
+}
+.level-one::before{
+    display: none;
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 15px;
+    height: 5px;
+    border-radius: 12px;
     background-color: var(--primary-color);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+/*---------------------  Search  ------------------*/
+.search{
+    position: relative;
+    background: #fafafa;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    input{
+        border: 0;
+        background: transparent;
+        font-size: 12px;
+        color: #bdbdbd;
+        font-weight: 500;
+    }
+    span{
+        font-size: 22px;
+        color: #bdbdbd;
+    }
+}
+.vertical{
+    position:absolute;
+    border-left: 1px solid #08080810;
+    height: 65px;
+    right: -25%;
+    top: 0%;
+}
+/*---------------------  Account  ------------------*/
+.account{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        margin-right: 2px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    .info{
+        margin-left: -40px;
+    }
+    h5{
+        padding: 7px 0;
+        font-size: 16px;
+    }
+    h6{
+        padding: 7px 0;
+        font-size: 12px;
+        color: #08080850;
+    }
+    .bell{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-color);
+        height: 64px;
+        width: 64px;
+        background-color: #faf7fe;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    .bell:hover{
+        background-color: var(--primary-color);
+        color: #faf7fe;
+    }
 }
