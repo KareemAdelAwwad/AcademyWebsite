@@ -26,7 +26,7 @@ header .container{
     margin-left: -3%;
     font-size: 17px;
     font-weight: 450;
-    color: #08080850;
+    color: #08080870;
 
     ul{
         list-style: none;
@@ -168,6 +168,7 @@ header .container{
         color: #08080850;
     }
     .bell{
+        transition: 0.4s;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -180,7 +181,11 @@ header .container{
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
-    }
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+}
     .bell:hover{
         background-color: var(--primary-color);
         color: #faf7fe;
