@@ -58,6 +58,7 @@ header .container{
         li{
             position: static;
             width: 150px;
+            text-wrap: nowrap;
             color: #080808;
             font-size: 13px;
             margin: 15px 0px;
