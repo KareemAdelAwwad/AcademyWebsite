@@ -125,6 +125,11 @@ header .container{
         color: #bdbdbd;
         font-weight: 500;
     }
+    input:focus {
+        outline: none;
+        border: none;
+        color: #080808;
+    }
     span{
         font-size: 22px;
         color: #bdbdbd;
