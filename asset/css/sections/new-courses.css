@@ -39,10 +39,10 @@
       list-style: none;
       text-transform: capitalize;
       padding: 12px;
-    }
+}
     li:hover {
       color: var(--primary-color);
-    }
+}
     .active {
       background-color: #F5F5F5;
       border-radius: 10px;
@@ -114,6 +114,7 @@
       align-items: center;
       justify-content: space-between;
       button {
+        cursor: pointer;
         outline: none;
         border: none;
         text-transform: capitalize;
