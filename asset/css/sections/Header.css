@@ -50,6 +50,7 @@ header .container{
         background-color: white;
         box-shadow: 0px 0px 20px 2px #33333333;
         padding: 10px 45px 10px 15px;
+        z-index: 99;
         border-radius: var(--border-radius);
         -webkit-border-radius: var(--border-radius);
         -moz-border-radius: var(--border-radius);
@@ -83,15 +84,25 @@ header .container{
 }
 .cat-sub-menu:hover .fa-angle-down{
     rotate: -180deg;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
 }
 .main-list{
     position: relative;
 }
 .main li:hover .level-one::before{
-    display: block;
+    opacity: 1;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
 .level-one::before{
-    display: none;
+    opacity: 0;
     content: '';
     position: absolute;
     bottom: -5px;
