@@ -14,11 +14,11 @@
             padding: 30px 0;
             display: flex;
             justify-content: space-between;
+            align-items: center;
             .icon{
                 cursor: pointer;
-                padding: 15px 24px;
+                padding: 16px;
                 font-size: 26px;
-                line-height: 2;
                 font-weight: 500;
                 border-radius: 12px;
                 -webkit-border-radius: 12px;
@@ -28,11 +28,10 @@
             }
             .topic{
                 cursor: pointer;
-                line-height: 2;
                 background-color: #FAFAFA;
-                padding: 25px 35px;
-                margin: 0 5px;
-                font-size: 18px;
+                padding: 20px 30px;
+                margin: 30px 5px;
+                font-size: 16px;
                 font-weight: 600;
                 border-radius: 10px;
                 -webkit-border-radius: 10px;
@@ -42,8 +41,7 @@
             }
             .caret{
                 font-size: 22px;
-                margin-left: 25px;
-                margin-top: 30px;
+                margin-left: 20px;
             }
             .caret:hover{
                 color: var(--primary-color);
@@ -75,7 +73,7 @@
     .info{
         width: 40%;
         h4{
-            font-size: 46px;
+            font-size: 40px;
             font-weight: 600;
             text-transform: capitalize;
             line-height: 60px;
@@ -113,8 +111,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 650px;
-        height: 650px;
+        width: 550px;
+        height: 550px;
         background-color: #E671E5;
         border-radius: 50%;
         overflow: hidden;
@@ -135,8 +133,8 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke: 1.5px white;
-            left: 60%;
-            top: 28%;
+            left: 59%;
+            top: 27%;
             z-index: 5;
         }
         .frame{
@@ -156,12 +154,12 @@
     display: block;
     position: absolute;
     left: 310px;
-    top: 65%;
+    top: 68%;
 }
 .booked{
     position: absolute;
-    left: 22.5%;
-    top: 63%;
+    left: 25%;
+    top: 66%;
     rotate: 30deg;
     color: #FF991F;
     font-weight: 500;
