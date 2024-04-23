@@ -11,13 +11,14 @@
         /* background-color: rgb(201, 230, 255); */
         .topics{
             width: 100%;
-            padding: 35px 0;
+            padding: 30px 0;
             display: flex;
             justify-content: space-between;
             .icon{
                 cursor: pointer;
-                padding: 15px 14px;
-                font-size: 20px;
+                padding: 15px 24px;
+                font-size: 26px;
+                line-height: 2;
                 font-weight: 500;
                 border-radius: 12px;
                 -webkit-border-radius: 12px;
@@ -27,11 +28,12 @@
             }
             .topic{
                 cursor: pointer;
+                line-height: 2;
                 background-color: #FAFAFA;
-                padding: 15px 30px;
+                padding: 25px 35px;
                 margin: 0 5px;
-                font-size: 16px;
-                font-weight: 500;
+                font-size: 18px;
+                font-weight: 600;
                 border-radius: 10px;
                 -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
@@ -41,7 +43,7 @@
             .caret{
                 font-size: 22px;
                 margin-left: 25px;
-                margin-top: 15px;
+                margin-top: 30px;
             }
             .caret:hover{
                 color: var(--primary-color);
@@ -54,7 +56,7 @@
     background-color: #EBFAF5;
 }
 .design{
-    background-color: #9d5cf236;
+    background-color: #9d5cf21c;
     margin-left: 30px;
 }
 .camera{
@@ -73,10 +75,10 @@
     .info{
         width: 40%;
         h4{
-            font-size: 36px;
+            font-size: 46px;
             font-weight: 600;
             text-transform: capitalize;
-            line-height: 55px;
+            line-height: 60px;
             margin-bottom: 30px;
             span{
                 background: #B176F2;
@@ -111,9 +113,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 550px;
-        height: 550px;
-        background-color: var(--primary-color);
+        width: 650px;
+        height: 650px;
+        background-color: #E671E5;
         border-radius: 50%;
         overflow: hidden;
         -webkit-border-radius: 50%;
@@ -127,7 +129,7 @@
             font-family: "Rowdies", sans-serif;
             font-weight: 400;
             font-style: normal;
-            font-size: 56px;
+            font-size: 60px;
             background: #B176F2;
             background: linear-gradient(to right, #B176F2 0%, #FAC1F1 100%);
             -webkit-background-clip: text;
@@ -139,7 +141,7 @@
         }
         .frame{
             z-index: 5;
-            left: 61%;
+            left: 60%;
             top: 70%
         }
         .lamp{
@@ -154,13 +156,12 @@
     display: block;
     position: absolute;
     left: 310px;
-    top: 60%;
-    rotate: -20deg;
+    top: 65%;
 }
 .booked{
     position: absolute;
-    left: 22%;
-    top: 57%;
+    left: 22.5%;
+    top: 63%;
     rotate: 30deg;
     color: #FF991F;
     font-weight: 500;
