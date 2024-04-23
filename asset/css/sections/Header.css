@@ -75,9 +75,8 @@ header .container{
 }
 .cat-sub-menu{
     display: block;
-    border-color: red;
-    border-bottom:20px solid transparent; 
-    border-top:20px solid transparent; 
+    border-bottom:20px solid transparent;
+    border-top:20px solid transparent;
 }
 .cat-sub-menu:hover .sub{
     display: block;
