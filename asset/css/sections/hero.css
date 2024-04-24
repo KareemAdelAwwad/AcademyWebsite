@@ -11,7 +11,6 @@
         /* background-color: rgb(201, 230, 255); */
         .topics{
             width: 100%;
-            padding: 30px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -72,6 +71,36 @@
     justify-content: space-between;
     .info{
         width: 40%;
+        .arrow-1{
+            width: 100px;
+            display: block;
+            position: absolute;
+            left: 310px;
+            top: 68%;
+        }
+        .booked{
+            position: absolute;
+            left: 25%;
+            top: 66%;
+            rotate: 30deg;
+            color: #FF991F;
+            font-weight: 500;
+            background-color: #FF991F30;
+            padding: 10px;
+            border-radius: 50px;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            -ms-border-radius: 50px;
+            -o-border-radius: 50px;
+        }
+        
+        .arrow-2{
+            width: 80px;
+            display: block;
+            position: absolute;
+            left: -60px;
+            top: 54%;
+        }
         h4{
             font-size: 40px;
             font-weight: 600;
@@ -148,36 +177,6 @@
             top: 15%
         }
 }
-}
-.info .arrow-1{
-    width: 100px;
-    display: block;
-    position: absolute;
-    left: 310px;
-    top: 68%;
-}
-.booked{
-    position: absolute;
-    left: 25%;
-    top: 66%;
-    rotate: 30deg;
-    color: #FF991F;
-    font-weight: 500;
-    background-color: #FF991F30;
-    padding: 10px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-
-.info .arrow-2{
-    width: 80px;
-    display: block;
-    position: absolute;
-    left: -60px;
-    top: 54%;
 }
 .search-section{
     margin-top: 10%;

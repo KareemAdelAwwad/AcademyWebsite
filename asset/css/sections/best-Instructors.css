@@ -1,0 +1,110 @@
+.best-instructors{
+    position: relative;
+
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 120px 0;
+        .info{
+            width: 25%;
+            h4{
+                font-size: 30px;
+                font-weight: 600;
+                margin-bottom: 25px;
+                span{
+                    background: #B176F2;
+                    background: linear-gradient(to right, #B176F2 0%, #FAC1F1 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+            p{
+                font-size: 14px;
+                text-transform: capitalize;
+            }
+            button{
+                margin-top: 70px;
+            }
+            .arrow-4{
+                position: absolute;
+                bottom: 33%;
+                margin-left: 5px;
+            }
+            .instructors-num{
+                position: absolute;
+                left: 22%;
+                top: 55%;
+                rotate: 25deg;
+                color: #5A69F2;
+                font-weight: 500;
+                font-size: 16px;
+                background-color: #F6F7FE;
+                padding: 10px;
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+            }
+        }
+        .instructors-card{
+            width: 50%;
+            display: grid;
+            margin-right: 10%;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto;
+            grid-row-gap: 30px;
+            grid-column-gap: 20px;
+            z-index: 2;
+            .card{
+                border: 1px solid #f1f1f1;
+                background: white;
+                padding: 10px;
+                border-radius: 12px;
+                -webkit-border-radius: 12px;
+                -moz-border-radius: 12px;
+                -ms-border-radius: 12px;
+                -o-border-radius: 12px;
+                .info{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 15px 5px 5px 5px;
+                    h6{
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                    p{
+                        font-weight: 300;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .background{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #9E5CF220;
+        width: 66%;
+        max-height: 250px;
+        right: -30px;
+        top: 50%;
+        overflow: hidden;
+        z-index: 1;
+        border-radius: 30px;
+        transform: translate(0 , -50%);
+        -webkit-transform: translate(0 , -50%);
+        -moz-transform: translate(0 , -50%);
+        -ms-transform: translate(0 , -50%);
+        -o-transform: translate(0 , -50%);
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+}

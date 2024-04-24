@@ -1,6 +1,7 @@
 @import url('./sections/Header.css');
-@import url('./hero.css');
+@import url('./sections/hero.css');
 @import url('./sections/new-courses.css');
+@import url('./sections/best-Instructors.css');
 @import url('./sections/footer.css');
 /* ----------------- VAR ----------------- */
 :root {
@@ -24,6 +25,7 @@
 /* ----------------- SMOOTH ----------------- */
 body, html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* ----------------- SCROLL BAR ----------------- */
