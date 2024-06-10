@@ -2,6 +2,7 @@
 @import url('./sections/hero.css');
 @import url('./sections/new-courses.css');
 @import url('./sections/best-Instructors.css');
+@import url('./sections/your-courses.css');
 @import url('./sections/footer.css');
 /* ----------------- VAR ----------------- */
 :root {

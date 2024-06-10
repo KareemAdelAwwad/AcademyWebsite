@@ -1,0 +1,150 @@
+.your-courses{
+    margin-bottom: 50px;
+    display: flex;
+    .body{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    .container{
+        width: 80%;
+
+        .head{
+            display: flex;
+            justify-content: space-between;
+            .see_all{
+                background-color: #fafafa;
+                color: gray;
+                font-weight: 500;
+                margin-bottom: 30px;
+                padding: 10px 30px;
+                
+            }
+            .heading h2{
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                text-transform: uppercase;
+                span {
+                width: 5px;
+                height: 5px;
+                background-color: var(--primary-color);
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%; 
+                display: inline-block;
+                margin-right: 10px;
+                }
+            }
+        }
+        .cards{
+            background-color: #fafafa;
+            border: #dddddd solid 1px;
+            padding: 10px;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+            .course{
+                display: flex;
+                .course-card{
+                    margin-left: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 10px 0;
+                    h3{
+                        font-size: 18px;
+                    }
+                    .course-info{
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    .course-info{
+                        color: gray;
+                        font-size: 14px;
+                    }
+                    .course-progress{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+                        .bar{
+                            --present: 75%;
+                            background: rgb(255,76,0);
+                            background: linear-gradient(90deg, rgba(255,76,0,0.35) 0%, rgba(255,76,0,1) var(--present), rgba(99,99,99,0.29735644257703087) var(--present));
+                            width: 100%;
+                            height: 4px;
+                            margin-bottom: 10px;
+                            border-radius: 12px;
+                            -webkit-border-radius: 12px;
+                            -moz-border-radius: 12px;
+                            -ms-border-radius: 12px;
+                            -o-border-radius: 12px;
+                        }
+                        .bar::after{
+                            content: "";
+                            display: flex;
+                            height: 12px;
+                            width: 12px;
+                            background-color: rgb(255,76,0);
+                            position: absolute;
+                            left: var(--present);
+                            top: -4px;
+                            border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -ms-border-radius: 50%;
+                            -o-border-radius: 50%;
+}
+                        .info{
+                            display: flex;
+                            justify-content: space-between;
+                            color: gray;
+                            font-size: 14px;
+                        }
+                    }
+                    .fotter{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .instructor{
+                            display: flex;
+                            .info{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                                margin-left: 10px;
+                                font-size: small;
+                                color: gray;
+                                .name{
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    color: black;
+                                }
+                            }
+                            img{
+                                display: flex;
+                                width: 4rem;
+                                border-radius: 12px;
+                                -webkit-border-radius: 12px;
+                                -moz-border-radius: 12px;
+                                -ms-border-radius: 12px;
+                                -o-border-radius: 12px;
+                            }
+                        }
+                        button{
+                            padding: 15px 30px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                img{
+                    width: 23rem;
+                }
+            }
+        }
+    }
+}
