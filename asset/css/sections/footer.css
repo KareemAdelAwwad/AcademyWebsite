@@ -122,3 +122,23 @@ footer .paragraph-and-logo .logo img{
   text-transform: capitalize;
   font-size: 12px;
 }
+footer{
+  position: relative;
+  .scroll-to-top{
+    position: fixed;
+    z-index: 9999;
+    right: 20px;
+    bottom: 20px;
+    padding: 15px 18px;
+    cursor: pointer;
+    display: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%
+  }
+  .show{
+    display: block;
+  }
+}
