@@ -1,0 +1,51 @@
+.newsletter{
+    z-index: 5;
+    position: relative;
+    height: 280px;
+    width: 90%;
+    overflow: hidden;
+    margin: 5% 0;
+    border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -ms-border-radius: 0 50px 50px 0;
+    -o-border-radius: 0 50px 50px 0;
+    background-color: #F6F7FE;
+    .container{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: center;
+        .head{
+            width: 55%;
+            text-transform: capitalize;
+            line-height: 60px;
+            h2{
+                font-size: 36px;
+                font-weight: 800;
+            }
+            span{
+                color: #5A69F2;
+            }
+        }
+        .search{
+            width: 450px;
+            z-index: 9;
+            box-shadow: 0px 10px 20px #2828283e;
+        }
+    }
+    .container::after{
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 400px;
+        height: 300px;
+        background-color: #5A69F2;
+        border-radius: 80px 0 0 150px;
+        -webkit-border-radius: 80px 0 0 150px;
+        -moz-border-radius: 80px 0 0 150px;
+        -ms-border-radius: 80px 0 0 150px;
+        -o-border-radius: 80px 0 0 150px;
+}
+}
