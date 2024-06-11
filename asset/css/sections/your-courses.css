@@ -138,6 +138,7 @@
                         button{
                             padding: 15px 30px;
                             font-size: 14px;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -147,4 +148,14 @@
             }
         }
     }
+}
+
+.c2 .course-progress .bar{
+    --present: 25% !important;
+}
+.c3 .course-progress .bar{
+    --present: 50% !important;
+}
+.c4 .course-progress .bar{
+    --present: 100% !important;
 }
