@@ -86,6 +86,9 @@ button{
   text-decoration: none;
   font-weight: bold;
 }
+.copyright p a:visited{
+  color: var(--primary-color);
+}
 
 
 
