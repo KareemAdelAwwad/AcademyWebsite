@@ -73,6 +73,10 @@ footer .paragraph-and-logo .logo img{
   font-size: 13px;
   color: #080808;
   text-transform: capitalize;
+  transition: 0.3s;
+}
+.gategories ul li a:hover, .quick-access ul li a:hover{
+  color: var(--primary-color);
 }
 .gategories ul li:not(:last-child), .quick-access ul li:not(:last-child){
   margin-bottom: 12px;
